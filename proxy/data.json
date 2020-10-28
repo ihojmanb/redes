@@ -1,7 +1,14 @@
-{ "user": "--su email--",
+{
+  "user": "user@gmail.com",
 
-"blocked": ["http://www.dcc.uchile.cl/", "http://anakena.dcc.uchile.cl:8989/secret/"],
+  "blocked": [
+    "http://www.dcc.uchile.cl/",
+    "http://anakena.dcc.uchile.cl:8989/secret/"
+  ],
 
-"forbidden_words": [{"Lorem": "bleuh"}, {"ipsum": "blauh"}, {"amet": "blah"}]
-
+  "forbidden_words": [
+    { "Lorem": "bleuh" },
+    { "ipsum": "blauh" },
+    { "amet": "blah" }
+  ]
 }

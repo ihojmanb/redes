@@ -119,7 +119,8 @@ class HTTPServer(TCPServer):
         return data['blocked']
 
     def modify_request(self, request):
-        extra_headers = {'X-ElQuePregunta': 'ihojmanb@gmail.com'}
+        user_email = self.json_data['user']
+        extra_headers = {'X-ElQuePregunta': user_email}
         response_headers = self.response_headers(extra_headers)
         blank_line = "\r\n"
         #deleting last \r\n, adding extra headers and last blank line
