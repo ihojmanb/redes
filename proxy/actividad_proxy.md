@@ -19,6 +19,7 @@ Para ello
 * De no haber error reenvíe la consulta a quien corresponda, pero agregando el header X-ElQuePregunta esta vez al request que va al servidor (desde el proxy).
 Para probarlo configure http://localhost:8888 como el proxy de su browser favorito (puede seguir estas instrucciones https://es.ccm.net/faq/25993-como-configurar-un-proxy-en-tu-navegador-web ) y pase a la etapa siguiente (Evaluación). Use el siguiente archivo JSON de prueba:
 
+```
 { "user": "--su email--",
 
 "blocked": ["http://www.dcc.uchile.cl/", "http://anakena.dcc.uchile.cl:8989/secret/"],
@@ -26,3 +27,4 @@ Para probarlo configure http://localhost:8888 como el proxy de su browser favori
 "forbidden_words": [{"Lorem": "bleuh"}, {"ipsum": "blauh"}, {"amet": "blah"}]
 
 }
+```
