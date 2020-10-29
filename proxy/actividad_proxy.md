@@ -26,4 +26,3 @@ Para probarlo configure http://localhost:8888 como el proxy de su browser favori
 "forbidden_words": [{"Lorem": "bleuh"}, {"ipsum": "blauh"}, {"amet": "blah"}]
 
 }
-`<addr>`
